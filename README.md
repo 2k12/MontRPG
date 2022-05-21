@@ -14,7 +14,7 @@ Se encuentra integrado 3 ítems especiales los cuales mejoran los atributos del 
 
 _Espada Sagrada_ aumenta el daño ocasionado al monstruo en +5
 
-_Oro Doble _  genera el doble de oro cuando el HP del monstro sea 0
+_Oro Doble_  genera el doble de oro cuando el HP del monstro sea 0
 
 _Lanza del Destino_ aumenta el daño ocasionado al monstruo en +100
 
