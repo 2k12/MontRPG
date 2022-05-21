@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/level.css" />
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Mont RPG</h1>
+    <div class="pointer">
+        <div id="goldt">
+            <img id="img-gold" src="../media/chinese-coin.png" alt="gold" />
+            <div id="gold"></div>
+        </div>
+        <center>
+            <div id="nivel"></div>
+        </center>
+    </div>
+   
+    <div class="contenedor">
+        <div id="itemminis">
+        </div>
+        <div id="itemminig">    
+        </div>
+        <div id="itemminisp">    
+        </div>
+       
+        <img src="../media/player.png" alt="player" id="image_player" />
+       
+        <div class="player">
+            <img src="../media/emblemnew_93501.png" alt="add" id="add_iconp" />
+            <div id="poder"></div>
+        </div>
+
+        <div id="imagen">
+            <img src="../media/backpack.png" alt="player_backpack" id="backpack_img" onclick="mostrar()" />
+        </div>
+        <div id="moch">
+            <img class="caja_item" id="item1" src="../media/little.png" />
+
+            <img class="caja_item" id="item2" src="../media/little.png" />
+
+            <img class="caja_item" id="item3" src="../media/little.png" />
+
+            <!-- para futuros items hay que cambiar los div que siguen a continuación por img -->
+            <div class="caja_item"></div>
+            <div class="caja_item"></div>
+            <div class="caja_item"></div>
+            <div class="caja_item"></div>
+            <div class="caja_item"></div>
+            <div class="caja_item"></div>
+            <div class="caja_item"></div>
+            <div class="caja_item"></div>
+            <div class="caja_item"></div>
+        </div>
+
+        <div id="salud">
+            <div class="progreso" id="progreso"></div>
+        </div>
+        <div id="cantidad-salud"></div>
+
+        <div>
+            <img src="../media/ojo.gif" alt="" id="monster" />
+        </div>
+        <div id="item" class="elitem">
+            <div id="option_ad" onclick="itemsword()"></div>
+        </div>
+        <div id="itemo" class="elitem">
+            <div id="option_ad" onclick="itemgold()"></div>
+        </div>
+        <div id="itemsp" class="elitem">
+            <div id="option_ad" onclick="itemspeard()"></div>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container">
+        <div class="modal">
+            <h2>Victoria!</h2>
+            <img src="../media/giphy.gif" alt="win_gif" id="cup" />
+            <div class="buttonslvl">
+                <button class="repetir" id="repetire">Repetir Nivel</button>
+                <button class="avanzar" id="avanzare">Avanzar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Desarrollado por Joan Pastillo V.1.0 Copyright&copy; 2022 - Todos los
+        derechos reservados
+    </footer>
+
+    <script src="../js/level.js"></script>
+  
+</body>
+
+</html>
