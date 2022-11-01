@@ -223,7 +223,7 @@ function juego() {
 
     if (level==5) {
 
-        if (hpmonstruo == 5) {
+        if (hpmonstruo <= 100) {
 
             contadorlevelpd++;
         
