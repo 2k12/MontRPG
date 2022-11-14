@@ -285,7 +285,7 @@ function juego() {
 
     }
 
-// cambios de monstruos por nivel
+// cambios de los archivos .gif monstruos por nivel
 
     if (level % 10 == 0) {
         document.getElementById('monster').src = "../media/boss.gif";
